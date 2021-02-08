@@ -1,0 +1,43 @@
+.header {
+  background-color: #34393c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 160px;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      padding-right: 25px;
+    }
+
+    .bank-name {
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+      font-style: oblique;
+      font-family: 'Play', sans-serif;
+
+      span {
+        display: block;
+      }
+    }
+  }
+
+  .language-link-container {
+    padding-right: 45px;
+
+    .language-link {
+      color: #a3a3a3;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-left: 1px solid #a3a3a3;
+      font-size: 40px;
+    }
+  }
+}
