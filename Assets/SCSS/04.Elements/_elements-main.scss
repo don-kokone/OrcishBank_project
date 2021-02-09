@@ -1,0 +1,7 @@
+main{
+  background-image:url("http://pngimg.com/uploads/snowflakes/snowflakes_PNG7592.png");
+  background-color: $color-lightgrey;
+  display: grid;
+  grid-template-columns: 90vw;
+  grid-auto-rows: auto auto auto;
+}
