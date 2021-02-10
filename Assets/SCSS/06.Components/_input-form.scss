@@ -1,19 +1,34 @@
-.c-input{
-
-padding: 25px;
-border: 2px solid black;
-max-width: 90vw;
-margin-top: 25px;
-margin: 0 auto;
-background-color: $color-white;
-position: relative;
-margin-top: 20px;
-
-  .c-input__form{
+.c-input {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  padding: 50px;
+  grid-template-rows: auto 1fr 50px 50px;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 
+  margin: 0 auto;
+  padding: 25px;
+  border: 2px solid $color-lightgrey;
+  background-color: $color-white;
+  max-width: 80vw;
+  width: 100%;
+
+  .c-input__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+
+    .c-input__form--label {
+      margin: 50px 0 20px;
+      color: $color-blue;
+      width: 80vw;
+    }
+
+    .c-input__form--input {
+      margin-bottom: 20px;
+      border: 1px solid $color-darkgrey;
+      max-width: 80vw;
+    }
   }
 }
