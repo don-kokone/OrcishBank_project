@@ -32,18 +32,19 @@
     }
 
     .c-input__form--button {
-      margin-bottom: 25px;
       background-color: $color-yellow;
       color: $color-black;
       width: auto;
-      padding: 10px 15px;
       border: none;
       position: absolute;
       right: 10%;
       top: 55%;
+      padding: 15px 0;
 
     }
 
-    .c-input__form--input {}
+    .c-input__form--link{
+      margin-top: 25px;
+    }
   }
 }
