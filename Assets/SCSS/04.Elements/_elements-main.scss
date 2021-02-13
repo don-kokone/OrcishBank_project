@@ -1,6 +1,10 @@
 main{
-  background-image:url("http://pngimg.com/uploads/snowflakes/snowflakes_PNG7592.png");
+  background-image:url("./Assets/Images/blood-background.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
   background-color: $color-lightgrey;
   display: grid;
   grid-template-rows: auto auto auto;
 }
+
+// url("http://pngimg.com/uploads/snowflakes/snowflakes_PNG7592.png")

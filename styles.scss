@@ -1,20 +1,30 @@
+@import "./Assets/Fontawesome/scss/fontawesome";
+@import "./Assets/Fontawesome/scss/solid";
+
+
 @import "./Assets/SCSS/01.Settings/_settings-global";
 @import "./Assets/SCSS/01.Settings/_settings-fonts";
 @import "./Assets/SCSS/01.Settings/_settings-colors";
 @import "./Assets/SCSS/01.Settings/_settings-variables";
 
-@import "./Assets/Fontawesome/scss/fontawesome";
-@import "./Assets/Fontawesome/scss/solid";
+
 
 @import "./Assets/SCSS/03.Generic/_generic-normalize";
+
+
+@import "./Assets/SCSS/05.Objects/_objects-section";
 
 
 @import "./Assets/SCSS/04.Elements/_elements-main";
 @import "./Assets/SCSS/04.Elements/_elements-span";
 @import "./Assets/SCSS/04.Elements/_elements-links";
 @import "./Assets/SCSS/04.Elements/_elements-faicon";
+@import "./Assets/SCSS/04.Elements/_elements-paragaphs";
+@import "./Assets/SCSS/04.Elements/_elements-headers";
+@import "./Assets/SCSS/04.Elements/_elements-lists";
+@import "./Assets/SCSS/04.Elements/_elements-video";
 
 
 @import "./Assets/SCSS/06.Components/_components-header";
 @import "./Assets/SCSS/06.Components/_input-form";
-@import "./Assets/SCSS/06.Components/_components-infosection";
+@import "./Assets/SCSS/06.Components/_components-footer";
